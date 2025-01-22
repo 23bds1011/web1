@@ -1,0 +1,186 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<h1><b>SARTHAK MISHRA</b></h1> 
+<h1><b>23BDS1011</b></h1> 
+<h1><b>WEB PROGRAMMING</b></h1> 
+<h1><b>USING OF STYLE TAG</b></h1> 
+<link rel="stylesheet" href="lab6.css"> 
+<style> 
+body{ 
+background-color: lightcoral; 
+} 
+h1{ 
+color:white; 
+text-align: center; 
+} 
+h2{ 
+color: 
+text-align: left; 
+23BDS1011 
+SARTHAK MISHRA 
+font-size: 30px; 
+} 
+.circle { 
+background-color: green; 
+width: 200px; 
+height: 200px; 
+border-radius: 50%; 
+} 
+.square { 
+background-color: green; 
+width: 200px; 
+height: 200px; 
+} 
+p{ 
+font-family:arial; 
+font-size: 20px; 
+} 
+#lab60{ 
+margin-left:50px; 
+color:blue; 
+} 
+.outer-container { 
+background-color: #0000ff; 
+23BDS1011 
+SARTHAK MISHRA 
+padding: 30px; 
+display: flex; 
+justify-content: center; 
+align-items: center; 
+height: 100vh; 
+} 
+.inner-container { 
+background-color: #ffffff; 
+padding: 20px 30px; 
+border-radius: 8px; 
+width: 300px; 
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+} 
+.login-btn { 
+font-size: 16px; 
+color: #fff; 
+background-color: #6a1b9a; 
+} 
+.login-btn:hover { 
+background-color: #4a0072; 
+} 
+.forgot-password { 
+text-align: center; 
+23BDS1011 
+SARTHAK MISHRA 
+color: #6a1b9a; 
+text-decoration: none; 
+} 
+.forgot-password:hover { 
+text-decoration: underline; 
+} 
+/* 
+using multiple style sheet 
+here it will take priority on basis of last mentioning 
+#lab60{ 
+margin-left: 50px; 
+color: green; 
+*/ 
+p.center{ 
+text-align:left; 
+color: black; 
+font-size: 20px; 
+} 
+/* this is a comment to describe about the universal selector it works on the 
+every element in the web page 
+the syntax is: 
+*{ 
+text-align: center; 
+ 
+23BDS1011 
+SARTHAK MISHRA 
+color: blue; 
+} 
+*/ 
+.font-style{ 
+font-style: italic; 
+color: green; 
+} 
+</style> 
+</head> 
+<body> 
+<h1> This is the starting of the css</h1> 
+<p>Planet Earth is endowed with a number of natural resources. Natural 
+resources refer to the resources that are available naturally without any 
+effort or interference of man. Sunlight, air, water and earth are some of the 
+natural resources on Planet Earth. These natural resources help keep up life. 
+All life forms depend on these natural resources to survive</p> 
+<h2> USING OF CSS-SELECTOR</h2> 
+<br> 
+<br> 
+<p id="lab60">Water resources refers to natural resources of water that are 
+potentially useful as a source of water supply. About 97% of the water on the 
+Earth is mainly salt water and only around 3% is fresh water; approximately 
+around two thirds of this is frozen in glaciers and polar ice caps.</p> 
+<br> 
+<br> 
+ 
+23BDS1011 
+SARTHAK MISHRA 
+<h2>USING OF CSS SELECTOR p.center</h2> 
+<p class="center">The word pollution was derived from the Latin word 
+pollution, which means to make dirty. Pollution is the process of making the 
+environment pollute the water and the air by adding harmful substances. 
+Pollution causes an imbalance in the environment. This imbalance 
+threatened the very survival of all forms of life.</p> 
+<br> 
+<br> 
+<h2>USING OF EXTERNAL CSS</h2> 
+<p id="two">VIT was established with the aim of providing quality higher 
+education on par with international standards. It persistently seeks and 
+adopts innovative methods to improve the quality of higher education on a 
+consistent basis.</p> 
+<br> 
+<br> 
+<h2>USING OF INLINE CSS</h2> 
+<h3 style="color:blue;text-align:center">THIS IS A HEADING IN INLINE CSS 
+USE</h1> 
+<p style="color:black;">this is a paragraph used to demonstrate the inline 
+css.My registration number in 23BDS1011</p> 
+<br> 
+<br> 
+<h2>USING OF SPAN</h2> 
+<p> 
+Earth is a blue planet <span class="font-style">here we are using 
+span</span> which is very big in size . There is a race of human species which 
+is dominating this planet from so many years. 
+23BDS1011 
+SARTHAK MISHRA 
+ 
+</p> 
+<h2> using of div </h2> 
+<div class="circle"> </div> 
+<br> 
+<br> 
+<div class="square"> </div> 
+<p id="one">Here's a paragraph about Diwali, a Hindu festival that 
+symbolizes the triumph of good over evil and light over darkness: 
+Celebration 
+Diwali is a festival of lights that takes place in October or November. It's a 
+time to celebrate with family and friends, exchange gifts, and enjoy sweets. 
+Decorations 
+Homes are decorated with oil lamps (diyas), candles, and colorful rangoli 
+patterns. </p> 
+<div class="outer-container"> 
+<div class="inner-container"> 
+<h2>Login</h2> 
+<form> 
+<label for="email">Email Address</label> 
+<input type="email" id="email" placeholder="Enter your email"> 
+<label for="password">Password</label> 
+<input type="password" id="password" placeholder="Enter your password"> 
+<button type="submit" class="login-btn">Login</button> 
+23BDS1011 
+SARTHAK MISHRA 
+<a href="#" class="forgot-password">Forgot Password?</a> 
+</form> 
+</div> 
+</div> 
+</body> 
+</html>
